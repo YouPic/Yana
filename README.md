@@ -14,3 +14,7 @@ Yana can be compiled to an efficient native executable. The compiler currently u
 ## Javascript target
 
 Yana can also be compiled to Javascript, and was designed have an efficient mapping to the language. This means that the generated script is both fast and doesn't require downloading a huge runtime.
+
+## YouPic Blockchain target
+
+This compiler version contains an additional target that allows compiled code to run within YouPic Blockchain. The target consists of a modified Yana IL that supports more efficient execution, as well as a different standard library specific for blockchain operation.
